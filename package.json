@@ -1,0 +1,11 @@
+{
+  "name": "clicko",
+  "version": "1.0.0",
+  "description": "Hub de Ofertas e Recomendações Inteligentes",
+  "scripts": {
+    "build": "cp -r ./* ./dist/ && cp -r admin ./dist/admin"
+  },
+  "dependencies": {
+    "decap-cms": "^3.0.0"
+  }
+}
